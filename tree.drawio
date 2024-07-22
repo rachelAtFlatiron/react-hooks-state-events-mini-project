@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="FEMTjnpQEdEA6wDdgOOo" name="Page-1">
+        <mxGraphModel dx="314" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.342;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="App&lt;br&gt;state: tasks, category&lt;br&gt;cb: deleteTask&lt;br&gt;db: addTask&lt;br&gt;cb: updateCategory" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="75" width="180" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="CategoryFilter&lt;br&gt;&lt;i&gt;click: &lt;/i&gt;updateCategory" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="NewTaskForm&lt;br&gt;&lt;i&gt;submit&lt;/i&gt;: addTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="TaskList" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="filteredTasks, deleteTask" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="210" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Task&lt;br&gt;&lt;i&gt;click: &lt;/i&gt;deleteTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="task, deleteTask" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="390" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="create callback in the component where state was defined" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="100" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="CATEGORIES,&lt;br&gt;updateCategory,&lt;br&gt;category" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="195" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="addTask,&lt;br&gt;categories" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="235" width="80" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
